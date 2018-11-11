@@ -1,0 +1,213 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Dom Nov 11 11:05:27 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   TMP_D_UBIGEO.CTL
+Data File:      UBIGEOS_DATA.TXT
+  Bad File:     UBIGEOS_DATA.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table TMP_D_UBIGEO, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+UBIGEO                              FIRST     *   |       CHARACTER            
+DEPARTAMENTO                         NEXT     *   |       CHARACTER            
+PROVINCIA                            NEXT     *   |       CHARACTER            
+DISTRITO                             NEXT     *   |       CHARACTER            
+CODIGO                               NEXT     *   |       CHARACTER            
+DISTRITO_DET                         NEXT     *   |       CHARACTER            
+FLGZONA                              NEXT     *   |       CHARACTER            
+CENTRONEGOCIO                        NEXT     *   |       CHARACTER            
+FLGPROVCENTROSNEGOCIO                NEXT     *   |       CHARACTER            
+DISTRITO_AGG                         NEXT     *   |       CHARACTER            
+FLGCIUDAD                            NEXT     *   |       CHARACTER            
+
+Record 18: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 23, maximum: 20)
+
+Record 26: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 30, maximum: 20)
+
+Record 55: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 57: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 22, maximum: 20)
+
+Record 103: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 23, maximum: 20)
+
+Record 110: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 23, maximum: 20)
+
+Record 168: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 172: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 231: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 25, maximum: 20)
+
+Record 232: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 25, maximum: 20)
+
+Record 233: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 25, maximum: 20)
+
+Record 248: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 22, maximum: 20)
+
+Record 291: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 294: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 24, maximum: 20)
+
+Record 299: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 347: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 22, maximum: 20)
+
+Record 359: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 29, maximum: 20)
+
+Record 382: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 25, maximum: 20)
+
+Record 460: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 23, maximum: 20)
+
+Record 493: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 25, maximum: 20)
+
+Record 504: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 26, maximum: 20)
+
+Record 520: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 23, maximum: 20)
+
+Record 537: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 23, maximum: 20)
+
+Record 543: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 578: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 594: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 21, maximum: 20)
+
+Record 598: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 27, maximum: 20)
+
+Record 654: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 23, maximum: 20)
+
+Record 715: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 26, maximum: 20)
+
+Record 738: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 23, maximum: 20)
+
+Record 739: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 23, maximum: 20)
+
+Record 740: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 23, maximum: 20)
+
+Record 741: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 23, maximum: 20)
+
+Record 765: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 766: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 767: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 768: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 769: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 770: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 771: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 772: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 773: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 774: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 775: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 21, maximum: 20)
+
+Record 786: Rejected - Error on table TMP_D_UBIGEO, column DISTRITO.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."DISTRITO" (actual: 35, maximum: 20)
+
+Record 792: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 22, maximum: 20)
+
+Record 793: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 22, maximum: 20)
+
+Record 794: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 22, maximum: 20)
+
+Record 795: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 22, maximum: 20)
+
+Record 796: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 22, maximum: 20)
+
+Record 797: Rejected - Error on table TMP_D_UBIGEO, column PROVINCIA.
+ORA-12899: value too large for column "MARICELA"."TMP_D_UBIGEO"."PROVINCIA" (actual: 22, maximum: 20)
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table TMP_D_UBIGEO:
+  746 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 181632 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           832
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Dom Nov 11 11:05:27 2018
+Run ended on Dom Nov 11 11:05:27 2018
+
+Elapsed time was:     00:00:00.25
+CPU time was:         00:00:00.03
